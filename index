@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nirmalans | Innovating the Future</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col">
+
+    <!-- Header / Navbar -->
+    <header class="border-b border-slate-800 bg-slate-900/50 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold tracking-wider text-cyan-400">nirmalans</a>
+            <nav class="hidden md:flex space-x-8 text-slate-300 font-medium">
+                <a href="#about" class="hover:text-cyan-400 transition">About</a>
+                <a href="#team" class="hover:text-cyan-400 transition">Team</a>
+                <a href="#contact" class="hover:text-cyan-400 transition">Contact</a>
+            </nav>
+            <a href="#contact" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 px-4 py-2 rounded-lg font-semibold transition">
+                Get in Touch
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="max-w-6xl mx-auto px-6 py-24 text-center flex-grow flex flex-col items-center justify-center">
+        <span class="text-cyan-400 text-sm font-semibold tracking-widest uppercase mb-3">Welcome to nirmalans</span>
+        <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
+            Building Solutions for Tomorrow
+        </h1>
+        <p class="text-slate-400 text-lg md:text-xl max-w-2xl mb-10">
+            We are a team of passionate creators, engineers, and visionaries dedicated to building innovative products and driving meaningful impact.
+        </p>
+        <div class="flex gap-4">
+            <a href="#team" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 px-6 py-3 rounded-lg font-semibold transition">
+                Meet the Team
+            </a>
+            <a href="#about" class="border border-slate-700 hover:border-slate-500 text-slate-300 px-6 py-3 rounded-lg font-semibold transition">
+                Learn More
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-slate-900/50 py-20 border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-white mb-6">About Us</h2>
+            <p class="text-slate-300 leading-relaxed text-lg mb-6">
+                nirmalans is an emerging startup focused on developing forward-thinking solutions and technology. Our team combines engineering expertise, creativity, and strategic vision to solve complex challenges and build products that empower users.
+            </p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-slate-900 py-20 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-white mb-4">Meet Our Team</h2>
+                <p class="text-slate-400">The minds driving the vision at nirmalans.</p>
+            </div>
+
+            <!-- Co-Founders -->
+            <div class="mb-16">
+                <h3 class="text-xs font-semibold text-cyan-400 tracking-widest uppercase text-center mb-8">Leadership</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+                    <!-- Founder -->
+                    <div class="bg-slate-800/50 border border-slate-700/50 p-6 rounded-2xl text-center hover:border-cyan-500/50 transition">
+                        <div class="w-24 h-24 bg-slate-700 rounded-full mx-auto mb-4 flex items-center justify-center text-xl font-bold text-slate-300 border-2 border-cyan-400">
+                            AG
+                        </div>
+                        <h4 class="text-xl font-bold text-white">Alan George</h4>
+                        <p class="text-cyan-400 text-sm font-medium mt-1">Founder</p>
+                    </div>
+
+                    <!-- Co-Founder -->
+                    <div class="bg-slate-800/50 border border-slate-700/50 p-6 rounded-2xl text-center hover:border-cyan-500/50 transition">
+                        <div class="w-24 h-24 bg-slate-700 rounded-full mx-auto mb-4 flex items-center justify-center text-xl font-bold text-slate-300 border-2 border-cyan-400">
+                            AAS
+                        </div>
+                        <h4 class="text-xl font-bold text-white">Abhinav A S</h4>
+                        <p class="text-cyan-400 text-sm font-medium mt-1">Co-Founder</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Active Members -->
+            <div>
+                <h3 class="text-xs font-semibold text-cyan-400 tracking-widest uppercase text-center mb-8">Active Members</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-slate-800/30 border border-slate-800 p-5 rounded-xl text-center hover:bg-slate-800/50 transition">
+                        <div class="w-16 h-16 bg-slate-700 rounded-full mx-auto mb-3 flex items-center justify-center font-bold text-slate-300 border border-slate-600">
+                            AAS
+                        </div>
+                        <h5 class="text-lg font-semibold text-white">Abhinand A S</h5>
+                        <p class="text-slate-400 text-xs mt-1">Active Member</p>
+                    </div>
+
+                    <div class="bg-slate-800/30 border border-slate-800 p-5 rounded-xl text-center hover:bg-slate-800/50 transition">
+                        <div class="w-16 h-16 bg-slate-700 rounded-full mx-auto mb-3 flex items-center justify-center font-bold text-slate-300 border border-slate-600">
+                            AS
+                        </div>
+                        <h5 class="text-lg font-semibold text-white">Ashil Shaji</h5>
+                        <p class="text-slate-400 text-xs mt-1">Active Member</p>
+                    </div>
+
+                    <div class="bg-slate-800/30 border border-slate-800 p-5 rounded-xl text-center hover:bg-slate-800/50 transition">
+                        <div class="w-16 h-16 bg-slate-700 rounded-full mx-auto mb-3 flex items-center justify-center font-bold text-slate-300 border border-slate-600">
+                            S
+                        </div>
+                        <h5 class="text-lg font-semibold text-white">Sivaprasad</h5>
+                        <p class="text-slate-400 text-xs mt-1">Active Member</p>
+                    </div>
+
+                    <div class="bg-slate-800/30 border border-slate-800 p-5 rounded-xl text-center hover:bg-slate-800/50 transition">
+                        <div class="w-16 h-16 bg-slate-700 rounded-full mx-auto mb-3 flex items-center justify-center font-bold text-slate-300 border border-slate-600">
+                            AMC
+                        </div>
+                        <h5 class="text-lg font-semibold text-white">Athul Mon C</h5>
+                        <p class="text-slate-400 text-xs mt-1">Active Member</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-slate-950 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-white mb-4">Get In Touch</h2>
+                <p class="text-slate-400">Have a question or want to collaborate with nirmalans? Connect with us directly!</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+                <!-- Direct Contact Details -->
+                <div class="space-y-6 flex flex-col justify-center">
+                    <!-- Email Card -->
+                    <a href="mailto:nirmalans10c@gmail.com" class="flex items-center space-x-4 bg-slate-900 p-4 rounded-xl border border-slate-800 hover:border-cyan-500/50 transition">
+                        <div class="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center text-cyan-400 font-bold text-xl">
+                            ✉️
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400 uppercase tracking-wider">Email Us</p>
+                            <p class="text-white hover:text-cyan-400 transition font-medium">nirmalans10c@gmail.com</p>
+                        </div>
+                    </a>
+
+                    <!-- Phone Card -->
+                    <a href="tel:+917356474090" class="flex items-center space-x-4 bg-slate-900 p-4 rounded-xl border border-slate-800 hover:border-cyan-500/50 transition">
+                        <div class="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center text-cyan-400 font-bold text-xl">
+                            📞
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400 uppercase tracking-wider">Call Us</p>
+                            <p class="text-white hover:text-cyan-400 transition font-medium">+91 7356474090</p>
+                        </div>
+                    </a>
+
+                    <!-- Location Card -->
+                    <div class="flex items-center space-x-4 bg-slate-900 p-4 rounded-xl border border-slate-800">
+                        <div class="w-12 h-12 bg-slate-800 rounded-lg flex items-center justify-center text-cyan-400 font-bold text-xl">
+                            📍
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400 uppercase tracking-wider">Location</p>
+                            <p class="text-white font-medium">India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="space-y-4 bg-slate-900 p-6 rounded-2xl border border-slate-800">
+                    <div>
+                        <label class="block text-xs text-slate-400 mb-1">Your Name</label>
+                        <input type="text" name="name" required placeholder="Enter your name" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-cyan-400">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-slate-400 mb-1">Your Email</label>
+                        <input type="email" name="email" required placeholder="Enter your email" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-cyan-400">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-slate-400 mb-1">Message</label>
+                        <textarea name="message" rows="4" required placeholder="Write your message here..." class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-cyan-400"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold py-2.5 rounded-lg transition">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 bg-slate-950 py-8">
+        <div class="max-w-6xl mx-auto px-6 text-center text-slate-500 text-sm">
+            <p>&copy; 2026 nirmalans. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
